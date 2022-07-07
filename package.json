@@ -1,0 +1,21 @@
+{
+  "name": "smartbrain-api",
+  "version": "1.0.0",
+  "description": "\"smartbrain api\"",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Payton Jewell",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "knex": "^2.1.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3"
+  }
+}
